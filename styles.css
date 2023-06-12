@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Digital Display';
+    src: url('Assets/Digital-Display.woff2') format('woff2'),
+        url('Assets/Digital-Display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(0, 0, 173);
+    width: 60%;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+
+.teams {
+    width: 90%;
+    margin: 0px auto -100px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(200, 200, 200)
+}
+
+.homeScore, .guestScore {
+    width: 200px;
+    display: flex;
+    margin: 65px 0;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(40, 40, 40);
+    border-radius: 8px;
+    background-color: rgb(20, 20, 20);
+}
+
+.scores {
+    display: flex;
+    margin: 10px auto;
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 90%;
+    height: 260px;
+    gap: 80px;
+    font-family: 'Digital Display',monospace;
+    font-size: 200px;
+    justify-content: space-evenly;
+    align-items: start;
+    color: rgb(194, 33, 33);
+}
+
+.homePointsAdded, .guestPointsAdded {
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    gap: 40px;
+}
+
+button {
+    background-color: rgb(20, 20, 20);
+    color: rgb(196, 196, 48);
+    font-size: 80px;
+    font-family: 'Digital Display',monospace;
+}
+
+.pointsAdded {
+    display: flex;
+    justify-content: center;
+}
